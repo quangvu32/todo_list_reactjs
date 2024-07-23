@@ -1,0 +1,56 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgb(169, 218, 243);
+  border-radius: 1rem;
+  box-shadow: 0 0 1rem rgba(0, 0, 0, 0.5);
+  
+}
+
+.input {
+  padding: 0.5rem 1rem;
+  font-size: larger;
+  border: none;
+  border-radius: 0.5rem 0 0 0.5rem
+}
+
+.button {
+  margin-top: 1rem;
+  padding: 0.5rem 1rem;
+  font-size: larger;
+  background-color: lightblue;
+  border: none;
+  border-radius: 0 0.5rem 0.5rem 0;
+  cursor: pointer;
+}
+
+.task-container{
+  width: 100%;
+  margin-top: 1rem;
+  border-radius: 0.5rem;
+  background-color: white;
+  box-shadow: 0 0 1rem rgba(0, 0, 0, 0.5);
+}
+
+.taskList {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.task {
+  font-size: larger;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.5rem 1rem;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
